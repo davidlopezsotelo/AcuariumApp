@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 
 class Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +51,12 @@ class Menu : AppCompatActivity() {
         finish()
     }
     fun salir(vista:View?){
-        finish()
+
+      finish()
+
+
+
+
+
     }
 }

@@ -12,7 +12,11 @@ class Postres : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_postres)
     }
+    override fun onBackPressed() {
 
+        startActivity(Intent(this,com.example.acuariumapp.Menu::class.java))
+        super.onBackPressed()
+    }
     // crear boton menu de barra superior
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

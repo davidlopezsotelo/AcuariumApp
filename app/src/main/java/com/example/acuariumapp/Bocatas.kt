@@ -7,10 +7,17 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 
+@Suppress("DEPRECATION")
 class Bocatas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bocatas)
+    }
+
+    override fun onBackPressed() {
+
+        startActivity(Intent(this,com.example.acuariumapp.Menu::class.java))
+        super.onBackPressed()
     }
 
 

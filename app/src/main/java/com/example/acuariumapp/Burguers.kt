@@ -12,7 +12,11 @@ class Burguers : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_burguers)
     }
+    override fun onBackPressed() {
 
+        startActivity(Intent(this,com.example.acuariumapp.Menu::class.java))
+        super.onBackPressed()
+    }
 
     // crear boton menu de barra superior
 
