@@ -25,9 +25,10 @@
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="#00BCD4"
+        app:cornerRadius="30dp"
         android:onClick="raciones"
         android:text="RACIONES"
-        app:cornerRadius="30dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

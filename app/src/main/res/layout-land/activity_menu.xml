@@ -22,51 +22,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
-                android:text="                                     CARTA"
+                android:text="                                          CARTA"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="34sp" />
-
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="POSTRES" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="PLATOS" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="ENSALADAS" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="SANWICHES" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="BURGUERS" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="BOCATAS" />
 
             <Button
                 android:id="@+id/button3"
@@ -74,14 +32,79 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
                 android:onClick="raciones"
-                android:text="RACIONES" />
+                android:text="RACIONES"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#00BCD4"
+                android:onClick="bocatas"
+                android:text="BOCATAS"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="burgers"
+                android:text="BURGUERS"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="sandwich"
+                android:text="SANWICHES"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="ensaladas"
+                android:text="ENSALADAS"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="platos"
+                android:text="PLATOS"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="postres"
+                android:text="POSTRES"
+                android:backgroundTint="#00BCD4"
+                app:cornerRadius="30dp"/>
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="38dp"
-                android:text="salir" />
+                android:onClick="salir"
+                android:text="salir"
+                android:backgroundTint="#DC1A5C"
+                app:cornerRadius="30dp"/>
 
         </LinearLayout>
     </ScrollView>
