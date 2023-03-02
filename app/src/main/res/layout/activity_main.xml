@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFEFE"
-    android:onClick="entrar"
     tools:context=".MainActivity">
 
     <Button
@@ -19,12 +18,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.334" />
+        app:layout_constraintVertical_bias="0.334"
+        android:backgroundTint="#00BCD4"
+        app:cornerRadius="30dp"/>
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="361dp"
         android:layout_height="364dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_bar" />

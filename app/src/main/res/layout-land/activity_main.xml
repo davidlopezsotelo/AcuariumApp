@@ -6,21 +6,23 @@
     android:layout_height="match_parent"
     android:background="#FEFFFD"
     android:backgroundTint="#FDFDFD"
-    android:onClick="entrar"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <Button
         android:id="@+id/button"
         android:layout_width="204dp"
         android:layout_height="86dp"
+        android:backgroundTint="#00BCD4"
         android:onClick="entrar"
         android:text="ENTRAR"
+        app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.334" />
+        app:layout_constraintVertical_bias="0.334" />"
 
     <ImageView
         android:id="@+id/imageView9"
@@ -29,5 +31,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_bar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

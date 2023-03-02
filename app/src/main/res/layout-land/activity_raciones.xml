@@ -23,6 +23,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="825dp"
                 android:layout_height="796dp"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/raciones" />
         </LinearLayout>
     </ScrollView>
